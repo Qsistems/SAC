@@ -1,0 +1,482 @@
+
+
+
+table[id="general"]
+	{
+	background:#F8F8FF;
+	border: ridge;
+	width: 25%;
+	stext-align: left;
+	border-collapse: collapse;
+	margin: 0 0 1em 0;
+	font-size: 12px;
+	font-family: inherit;
+	border-collapse: separate;
+	border-spacing: 0px;
+}
+
+table[id="interno"]
+	{
+	background:#F8F8FF;
+	border: blanchedalmond;
+	width: 25%;
+	stext-align: left;
+	border-collapse: collapse;
+	margin: 0 0 1em 0;
+	font-size: 12px;
+	font-family: inherit;
+	border-collapse: separate;
+	border-spacing: 0px;
+}
+
+
+input[type=checkbox]:not(old):checked+label>span:before {
+	content: 'â';
+	display: block;
+	width: 1em;
+	color: rgb(153, 204, 102);
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+	text-shadow: 0 0 0.0714em rgb(115, 153, 77);
+	font-weight: bold;
+}
+
+}
+th {
+	bgcolor: #FF0000;
+	width: 30%;
+	text-align: center;
+	vertical-align: top;
+	border: 3px solid black;
+	padding: 0.2em;
+	caption-side: bottom;
+	font-family: "Tahoma", "Geneva", sans-serif;
+
+
+}
+
+select {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: blue;
+	font-size: 13px;
+	margin-bottom: 30px;
+	outline: medium none;
+	padding: 17px;
+	text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.3);
+	width:400px;
+	height: 100%;
+	overflow-y: overlay;
+	scrollbar-face-color: #8E6384;
+	
+	
+}
+
+
+select[id="PlayListconProgramacion"] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: blue;
+	font-size: 13px;
+	margin-bottom: 10px;
+	outline: medium none;
+	padding: 3px;
+	text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.3);
+	width:272px;
+	height: 18%;
+	overflow-y: overlay;
+	scrollbar-face-color: #8E6384;
+	
+	
+}
+
+select[id="Activo_Pasivo"] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: blue;
+	font-size: 13px;
+	margin-bottom: 15px;
+	outline: medium none;
+	padding: 3px;
+	text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.3);
+	width:270px;
+	height: 90%;
+	overflow-y: overlay;
+	scrollbar-face-color: #8E6384;
+	
+	
+}
+
+
+
+select[id="linkoption"] {
+	border: 0px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: blue;
+	font-size: 12px;
+	margin-bottom: 30px;
+	outline: medium none;
+	padding: 6px;
+	text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.3);
+	width:270px;
+	height: 20%;
+	overflow-y: overlay;
+	scrollbar-face-color: #8E6384;
+	
+	
+}
+
+select[id="cbPlayList"] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: blue;
+	font-size: 13px;
+	margin-bottom: 5px;
+	outline: medium none;
+	padding: 0px;
+	text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.3);
+	width:272px;
+	height: 80%;
+	overflow-y: overlay;
+	scrollbar-face-color: #8E6384;
+	
+}
+
+
+select[id="sex"] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: blue;
+	font-size: 13px;
+	margin-bottom: 5px;
+	outline: medium none;
+	padding: 0px;
+	text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.3);
+	width:270px;
+	height: 100%;
+	overflow-y: overlay;
+	scrollbar-face-color: #8E6384;
+	
+}
+
+select[id="estado"] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: blue;
+	font-size: 13px;
+	margin-bottom: 5px;
+	outline: medium none;
+	padding: 0px;
+	text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.3);
+	width:270px;
+	height: 100%;
+	overflow-y: overlay;
+	scrollbar-face-color: #8E6384;
+	
+}
+
+
+select[id="cargo"] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: blue;
+	font-size: 13px;
+	margin-bottom: 5px;
+	outline: medium none;
+	padding: 0px;
+	text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.3);
+	width:270px;
+	height: 100%;
+	overflow-y: overlay;
+	scrollbar-face-color: #8E6384;
+	
+}
+
+
+
+select[id="cbProgramacion"] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: blue;
+	font-size: 13px;
+	margin-bottom: 8px;
+	outline: medium none;
+	padding: 0px;
+	text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.3);
+	width:270px;
+	height: 100%;
+	overflow-y: overlay;
+	scrollbar-face-color: #8E6384;
+	
+}
+
+
+input {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: blue;
+	font-size: 15px;
+	margin-bottom: 10px;
+	outline: medium none;
+	padding: 10px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	width: 50%;
+	width: 250px;
+	height: 10px;
+	font-family: Verdana;
+	text-align: left;
+	maxlegth:25;
+}
+
+
+input [id="playListSeleccionado"]{
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: black;
+	font-size: 15px;
+	margin-bottom: 10px;
+	outline: medium none;
+	padding: 10px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	width: 50%;
+	width: 250px;
+	height: 10px;
+	font-family: Verdana;
+	text-align: left;
+	maxlegth:25;
+}
+
+
+
+textarea {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: black;
+	font-size: 10px;
+	margin-bottom: 10px;
+	outline: medium none;
+	padding: 10px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	width: 50%;
+	width: 250px;
+	height: 30px;
+	font-family: Verdana;
+	text-align: left;
+	maxlegth:25;
+}
+
+
+
+#uploadfile {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 0px 0px 0px 0px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: #11285f;
+	font-size: 12px;
+	margin-bottom: 10px;
+	outline: medium none;
+	padding: 4px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	width: 50%;
+	width: 400px;
+	height: 18px;
+	font-family: sans-serif;
+	text-align: left;
+	maxlegth:25;
+}
+
+input[type="date"] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: black;
+	font-size: 15px;
+	margin-bottom: 10px;
+	outline: medium none;
+	padding: 10px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	width: 50%;
+	width: 180px;
+	height: 10px;
+	font-family: Verdana;
+	text-align: left;
+	maxlegth:25;
+}
+
+input[type="time"] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 -5px 45px rgba(100, 100, 100, 0.2) inset, 0 1px 1px
+		rgba(255, 255, 255, 0.2);
+	color: black;
+	font-size: 15px;
+	margin-bottom: 10px;
+	outline: medium none;
+	padding: 10px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	width: 50%;
+	width: 180px;
+	height: 10px;
+	font-family: Verdana;
+	text-align: left;
+	maxlegth:25;
+}
+
+
+input[type="image"]{
+	
+background: linear-gradient(to bottom, transparent 0px, transparent 100%) repeat
+	 	scroll 0 0 transparent;
+	border: 0px solid rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.55);
+	border-radius: 200px 200px 200px 200px;
+	box-shadow: 0 1px 0 #E6F5FF inset;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	padding: 0px 0px;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	width: 130px;
+	height: 60px;
+	font-size: 50px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+ 
+}
+
+
+/* 
+input[type="image"]{
+	
+background: linear-gradient(to bottom, transparent 0px, transparent 100%) repeat
+	 	scroll 0 0 transparent;
+	border: 0px solid rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.55);
+	border-radius: 200px 200px 200px 200px;
+	box-shadow: 0 1px 0 #E6F5FF inset;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	padding: 0px 0px;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	width: 130px;
+	height: 60px;
+	font-size: 50px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+ 
+} */
+
+button {
+	background: linear-gradient(to bottom, #888888 0px, #B0B0B0 100%) repeat
+		scroll 0 0 transparent;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.55);
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 1px 0 #E6F5FF inset;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 25px;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	width: 100px;
+	font-size: 25px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+#SUBIR {
+	background:url('../images/button/subir.png') no-repeat;
+/* 	background: linear-gradient(to bottom, transparent 0px, transparent 100%) repeat
+		scroll 0 0 transparent;
+ */	border: 0px solid rgba(0, 0, 0, 0.3);
+	border-bottom: 0px solid rgba(0, 0, 0, 0);
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 1px 0 #E6F5FF inset;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: block;
+	margin: initial;
+	/* padding: 10px 25px; */
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	width: 60px;
+	height:60px;
+	font-size: 0px;
+	border: 0px solid rgba(0, 0, 0, 0.3);
+}
+
+#guardar {
+	background:url('../images/button/saveIconOn.png') no-repeat;
+	border: 0px solid rgba(0, 0, 0, 0.3);
+	border-bottom: 0px solid rgba(0, 0, 0, 0);
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 1px 0 #E6F5FF inset;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: block;
+	margin: initial;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    width: 60px;
+	height:60px;
+	font-size: 0px;
+	border: 0px solid rgba(0, 0, 0, 0.3);
+}
+
+
+#modificarguardar{
+	background:url('../images/button/modificarguardar.png') no-repeat;
+	border: 0px solid rgba(0, 0, 0, 0.3);
+	border-bottom: 0px solid rgba(0, 0, 0, 0);
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 1px 0 #E6F5FF inset;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: block;
+	margin: initial;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    width: 60px;
+	height:60px;
+	font-size: 0px;
+	border: 0px solid rgba(0, 0, 0, 0.3);
+}
+
+label {
+    cursor: default;
+    font-size: 0px;
+}
+
+#playlist {
+    display:table;
+}
+#playlist li{
+    cursor:pointer;
+    padding:8px;
+}

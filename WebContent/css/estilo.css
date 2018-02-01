@@ -1,0 +1,12 @@
+#cargando {
+	position: absolute;
+	width: 33%;
+	height: 17%;
+	left:220px;
+	 top:260px;
+    background:url("../images/button/loading2.gif") no-repeat center;
+}
+
+#gatos{
+	width: 100%;
+}
